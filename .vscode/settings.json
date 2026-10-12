@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    ".devcontainer": true,
+    ".github": true,
+    "tests": true,
+    "Makefile": true,
+    "q1": true,
+    "q2": true,
+    "q3": true,
+    "*.txt": true
+  }
+}
