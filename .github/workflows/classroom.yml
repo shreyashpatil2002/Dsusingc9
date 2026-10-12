@@ -1,0 +1,24 @@
+name: GitHub Classroom Autograding
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install C Toolchain & Valgrind
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential gcc valgrind
+
+      - name: Test Question 1
+        run: bash tests/test_q1.sh
+
+      - name: Test Question 2
+        run: bash tests/test_q2.sh
+
+      - name: Test Question 3
+        run: bash tests/test_q3.sh
