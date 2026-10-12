@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Question 1: Dynamic Array Resizing",
+      "setup": "sudo apt-get update && sudo apt-get install -y build-essential gcc valgrind",
+      "run": "bash tests/test_q1.sh",
+      "input": "",
+      "output": "Q1 Passed!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Question 2: Student Records & Pointer Arithmetic",
+      "setup": "sudo apt-get update && sudo apt-get install -y build-essential gcc valgrind",
+      "run": "bash tests/test_q2.sh",
+      "input": "",
+      "output": "Q2 Passed!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 9
+    },
+    {
+      "name": "Question 3: Bug Fix & Memory Audit",
+      "setup": "sudo apt-get update && sudo apt-get install -y build-essential gcc valgrind",
+      "run": "bash tests/test_q3.sh",
+      "input": "",
+      "output": "Q3 Passed!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    }
+  ]
+}
